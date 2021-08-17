@@ -75,7 +75,7 @@ function handleClick(evt) {
     darkButton.classList.remove("bg-current");
     buttonSVGdark.classList.add("text-gray-400");
     buttonSVGdark.classList.remove("text-gray-50");
-    precent.classList.remove("text-gray-50", "bg-gray-900");
+    precent.classList.remove("text-gray-50", "bg-transparent");
     pPrecent.classList.remove("text-gray-50");
     waring.classList.remove("text-gray-50");
   } else {
@@ -87,7 +87,7 @@ function handleClick(evt) {
     darkButton.classList.add("bg-current");
     buttonSVGdark.classList.remove("text-gray-400");
     buttonSVGdark.classList.add("text-gray-50");
-    precent.classList.add("text-gray-50", "bg-gray-900");
+    precent.classList.add("text-gray-50", "bg-transparent");
     pPrecent.classList.add("text-gray-50");
     waring.classList.add("text-gray-50");
   }
